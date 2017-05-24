@@ -22,7 +22,7 @@ module.exports = app => {
       id: profile.id,
       name: profile.name,
       displayName: profile.displayName,
-      emails: profile.emails && profile.emails[0] && profile.emails[0].value,
+      email: profile.emails && profile.emails[0] && profile.emails[0].value,
       photo: profile.photos && profile.photos[0] && profile.photos[0].value,
       token,
       tokenSecret,
